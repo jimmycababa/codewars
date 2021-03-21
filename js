@@ -91,3 +91,14 @@ function combineNames(first, last){
 
 // This method, which is supposed to return the result of dividing its first argument by its second, isn't always returning correct values. Fix it.
 const solve = (x, y) => x / y
+
+// The code provided is supposed replace all the dots . in the specified String str with dashes -
+// But it's not working properly.
+var replaceDots = function(str) {
+  return str.replace(/./, '-');
+}
+
+// solution
+var replaceDots = function(str) {
+  return str.split('.').join('-');
+}
