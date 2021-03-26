@@ -185,6 +185,12 @@ function apple(x){
   return string.repeat(n)
 }
 
+// alternate answer
+function repeater(string, n){
+  let answer = string.repeat(n);
+  return (`${answer}`)
+}
+
 // This challenge extends the previous repeater() challenge. Just like last time, your job is to write a function that accepts a string and a number as arguments. This time, however, you should format the string you return like this:
 
 function repeater(string, n) {
