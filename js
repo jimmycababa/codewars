@@ -207,4 +207,9 @@ function repeater(string, n) {
 // Unfortunately, something is wrong with the instructions in the function body. Your job is to fix it so the function returns correctly formatted quotes.
 
 def quotable(name, quote):
-    return name + ' said: ' + '"'+quote+'"' 
+    return name + ' said: ' + '"'+quote+'"'
+
+// Write function RemoveExclamationMarks which removes all exclamation marks from a given string.
+
+def remove_exclamation_marks(s):
+    return s.replace('!', '')
