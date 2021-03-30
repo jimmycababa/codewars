@@ -244,3 +244,13 @@ function spam(number){
  let total = 'hue';
   return total.repeat(number)
 }
+
+// Given an array of integers, find the one that appears an odd number of times.
+//
+// There will always be only one integer that appears an odd number of times.
+
+function findOdd(A) {
+  return A.reduce((a,b) => (a ^ b))
+}
+
+// The XOR operator (^) returns TRUE if both the operands are complementary to each other and returns FALSE if both the operands are the same.
