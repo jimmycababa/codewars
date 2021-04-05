@@ -346,3 +346,14 @@ function converter(mpg){
   let kpi = (4.54609188/1.609344)
   return Math.round((mpg/kpi) * 100) / 100
 }
+
+// Nathan loves cycling.
+
+Because Nathan knows it is important to stay hydrated, he drinks 0.5 litres of water per hour of cycling.
+
+You get given the time in hours and you need to return the number of litres Nathan will drink, rounded to the smallest value.
+
+function litres(time) {
+  let litres = .5;
+  return Math.floor(litres * time)
+}
