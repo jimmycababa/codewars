@@ -111,10 +111,31 @@ function formatMoney(amount){
 
 // Because Nathan knows it is important to stay hydrated, he drinks 0.5 litres of water per hour of cycling.
 
+// your coworker was supposed to write a function to capitalize a string (that contains a single word) before they went on vacation. unfortunately they now left and the code they gave you doesn't work. fix the helper function they wrote  so that it works as intended  (ie make the first character in the string "word" uppercase). dont worry about numbers, characters, or non-string types being passed to the function. The string lengths will be from 1 character up to 10 characters, but will never be empty.
+function capitalizeWord(word){
+    word(  0 ).toUpperCase();
+    return word
+}
+
+// solution
+function capitalizeWord(word){
+    return word.charAt(0).toUpperCase() + word.slice(1)
+}
 // You get given the time in hours and you need to return the number of litres Nathan will drink, rounded to the smallest value.
 function litres(time) {
     let litres = .5;
     return Math.floor(litres * time)
   }
+
+//   Alex just got a new hula hoop, he loves it but feels discouraged because his little brother is better than him
+
+//   Write a program where Alex can input (n) how many times the hoop goes round and it will return him an encouraging message :)
+  
+//   -If Alex gets 10 or more hoops, return the string "Great, now move on to tricks".
+  
+//   -If he doesn't get 10 hoops, return the string "Keep at it until you get it".
+function hoopCount (n) {
+    return n >=10 ? "Great, now move on to tricks" : "Keep at it until you get it" 
+ }
 
 
