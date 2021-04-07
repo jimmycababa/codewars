@@ -170,3 +170,9 @@ function mango(quantity, price){
     let answer = quantity - Math.floor(quantity / 3)
     return answer * price
     }
+
+    // time to test your basic knowledge in functions. return the odds from a list:
+
+    function odds(values){
+        return values.filter(n => n % 2);
+    }
