@@ -198,3 +198,12 @@ function ifChuckSaysSo(){
     return !chuck
   }
 
+//   your job is simple, if (x) squared is more than 1000 return 'its hotter than the sun!!, else return 'Help yourself to a honeycomb yorkie for the glovebox. X will either a string or a number. both are valid
+
+function apple(x){
+    if(x**2 >= 1000){
+        return 'It\'s hotter than the sun!!'
+    }else{
+        return 'Help yourself to a honeycomb yorkie for the glovebox'
+    }
+}
