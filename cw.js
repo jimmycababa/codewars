@@ -213,3 +213,16 @@ function apple(x){
 function trueOrFalse(val){
     return Boolean(val) ? 'true' : 'false';
   }
+
+//  write a function named repeater() that takes in two arguments (a string and a number) and returns a new string where the input  string is repeated that many times
+
+function repeater(string, n) {
+    return string.repeat(n)
+}
+
+// alternate answer
+function repeater(string, n){
+    let answer = string.repeat(n);
+    return (`${answer}`)
+}
+
