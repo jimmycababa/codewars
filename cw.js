@@ -243,3 +243,9 @@ function updateLight(current) {
   
   }
 
+// this challenge extends the previous repeater( challenge). just like the last time, your job is to write a function that accepts a string and a number as arguments. this time, however, you should format the sting you return like this:
+
+function repeater(string, n){
+    let answer = string.repeat(n)
+    return (`${string} repeated ${n} times is "${answer}"`)
+}
