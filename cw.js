@@ -249,3 +249,13 @@ function repeater(string, n){
     let answer = string.repeat(n)
     return (`${string} repeated ${n} times is "${answer}"`)
 }
+
+// this function should take two string parameters: a persons name (name) and a quote of theirs (quote) and return a string attributing the quote to the person in the following format: 
+
+// [name] said: "[quote]"
+// for example if name is 'grae' and 'quote' is 'practice makes perfect' then your function should return the string
+// 'grae' said: 'practice makes perfect'
+// unfortunately something is wrong with the instructions in the function body. your job is to fix it so the function returns correctly formatted quotes.
+
+def quotable(name, quote):
+return name + ' said ' + '"'+quote+'"'
