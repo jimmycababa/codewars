@@ -295,3 +295,8 @@ function toTime(seconds) {
     // write function RemoveExclamationMarks which removes all exclamation marks from a given string. 
     def remove_exclamation_marks(s):
     return s.replace('!', '')
+
+    // Create a function, called removeVowels (or remove_vowels), that takes a string argument and returns that same string with all vowels removed (vowels are "a", "e", "i", "o", "u").
+
+    var removeVowels = function(str){
+        return str.replace(/[aeiou]/gi, '');
