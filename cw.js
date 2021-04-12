@@ -274,3 +274,20 @@ return name + ' said ' + '"'+quote+'"'
 function formatPoem(poem) {
     return poem.split('. ').join('.\n')
   }
+
+//   This Kata is intended as a small challenge for my students
+
+// All Star Code Challenge #22
+
+// Create a function that takes an integer argument of seconds and converts the value into a string describing how many hours and minutes comprise that many seconds.
+
+// Any remaining seconds left over are ignored.
+
+// Note:
+// The string output needs to be in the specific form - "X hour(s) and X minute(s)"
+
+function toTime(seconds) {
+    let answer = Number(Math.floor(seconds / 3600))
+    let answer2 = Number(Math.floor(seconds / 60) % 60)
+    return answer.toFixed(0) + " hour(s)" + " and " + answer2.toFixed(0) + " minute(s)"
+    }
