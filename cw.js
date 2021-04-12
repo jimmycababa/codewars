@@ -291,3 +291,7 @@ function toTime(seconds) {
     let answer2 = Number(Math.floor(seconds / 60) % 60)
     return answer.toFixed(0) + " hour(s)" + " and " + answer2.toFixed(0) + " minute(s)"
     }
+
+    // write function RemoveExclamationMarks which removes all exclamation marks from a given string. 
+    def remove_exclamation_marks(s):
+    return s.replace('!', '')
