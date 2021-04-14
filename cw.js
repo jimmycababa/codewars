@@ -326,18 +326,6 @@ function convertCF(num, scale){
   
   }
 
-//   Given a string of arbitrary length with any ascii characters. Write a function to determine whether the string contains the whole word "English".
-
-// The order of characters is important -- a string "abcEnglishdef" is correct but "abcnEglishsef" is not correct.
-
-// Upper or lower case letter does not matter -- "eNglisH" is also correct.
-
-// Return value as boolean values, true for the string to contains "English", false for it does not.
-
-function spEng(sentence){
-    return sentence.includes('english') ? true : false
-    }
-
 // Given a string of arbitrary length with any ascii characters. Write a function to determine whether the string contains the whole word "English".
 
 // The order of characters is important -- a string "abcEnglishdef" is correct but "abcnEglishsef" is not correct.
@@ -363,3 +351,13 @@ function enough(cap, on, wait) {
     let answer = on + wait
     return cap >= on+wait ? 0 : answer % cap || cap % answer
   }
+
+// Given an array of integers your solution should find the smallest integer
+// For example: Given [34, 15, 88, 2] your solution will return 2
+// Given [34, -345, -1, 100] your solution will return -345
+
+class SmallestIntegerFinder{
+    findSmallestInt(args){
+        return Math.min.apply(Math, args);
+    }
+}
