@@ -385,3 +385,13 @@ function switcheroo(x){
 function take(arr, n) {
     return arr.slice(0, n)
   }
+
+//   here we have a function that helps us spam our hearty laughter. but is not working!! i need you to find out why...
+// expected results:
+// spam(1); hue
+// spam(6); huehuehuehuehuehue
+
+function spam(number){
+    let total = 'hue';
+    return total.repeat(number)
+}
