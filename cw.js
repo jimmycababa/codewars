@@ -457,3 +457,11 @@ function getEvenNumbers(numbersArray){
 function disemvowel(str) {
   return str.replace(/[aeiou]/gi, '');
 }
+
+// Given an array of integers, find the one that appears an odd number of times.
+//
+// There will always be only one integer that appears an odd number of times.
+
+function findOdd(A) {
+    return A.reduce((a,b) => a ^ b))
+}
