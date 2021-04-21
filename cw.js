@@ -558,6 +558,7 @@ function descendingOrder(n){
   
 }
 
+// 4/21/2021
 // Given a non-negative integer, return an array / a list of the individual digits in order.
 
 // Examples:
@@ -572,3 +573,16 @@ function descendingOrder(n){
 function digitize(n) {
   return n.toString().split('').map(n => parseInt(n))
 }
+
+// 4/21/2021
+// You will be given an array (a) and a value (x). All you need to do is check whether the provided array contains the value, without using a loop.
+
+// Array can contain numbers or strings. X can be either. Return true if the array contains the value, false if not. With strings you will need to account for case.
+
+// Looking for more, loop-restrained fun? Check out the other kata in the series:
+
+// solution
+function check(a,x){
+  return a.includes(x) ? true : false
+};
+
