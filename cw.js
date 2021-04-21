@@ -518,7 +518,7 @@ function howManydays(month){
 //
 // For example: month 2 (February), is part of the first quarter; month 6 (June), is part of the second quarter; and month 11 (November), is part of the fourth quarter.
 
-const quartaerOf = (month => {
+const quarterOf = (month => {
   if(month <= 3) {
     return 1
   }else if(month > 3 && month <= 6){
@@ -550,8 +550,25 @@ function bigToSmall(arr){
 
 // 4/20/2021
 // Your task is to make a function that can take any non-negative integer as an argument and return it with its digits in descending order. Essentially, rearrange the digits to create the highest possible number.
+
+// ***the plus sign at the front is shorthand to convert it to a number***
 // solution
 function descendingOrder(n){
   return +('' + n).split('').sort().reverse().join('')
   
+}
+
+// Given a non-negative integer, return an array / a list of the individual digits in order.
+
+// Examples:
+
+// 123 => [1,2,3]
+
+// 1 => [1]
+
+// 8675309 => [8,6,7,5,3,0,9]
+
+// solution
+function digitize(n) {
+  return n.toString().split('').map(n => parseInt(n))
 }
