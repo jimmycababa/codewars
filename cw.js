@@ -609,3 +609,12 @@ function abbrevName(name){
   return name.split(' ').map(i => i.charAt(0)).join('.').toUpperCase()
   }
 
+// Write a function to split a string and convert it into an array of words. For example:
+
+// "Robin Singh" ==> ["Robin", "Singh"]
+
+// solution
+function stringToArray(string){
+  return Array.from(string).join('').split(' ')
+  }
+  
