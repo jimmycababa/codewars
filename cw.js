@@ -659,6 +659,7 @@ var TempleStrings = function (obj, feature){
   return `${obj} are ${feature}`
 }
 
+// 4/24/2021
 // Your function takes two arguments:
 
 // current father's age (years)
@@ -667,4 +668,16 @@ var TempleStrings = function (obj, feature){
 // solution
 function twiceAsOld(dadYearsOld, sonYearsOld) {
   return dadYearsOld == (sonYearsOld * 2) ? 0 : Math.abs(dadYearsOld - sonYearsOld * 2)
+}
+
+// The wide mouth frog is particularly interested in the eating habits of other creatures.
+//
+// He just can't stop asking the creatures he encounters what they like to eat. But then he meet the alligator who just LOVES to eat wide-mouthed frogs!
+//
+// When he meets the alligator, it then makes a tiny mouth.
+//
+// Your goal in this kata is to create complete the mouth_size method this method take one argument animal which corresponds to the animal encountered by frog. If this one is an alligator (case insensitive) return small otherwise return wide.
+// solution
+function mouthSize(animal) {
+  return animal.toLowerCase() == 'alligator' ? 'small' : 'wide'
 }
