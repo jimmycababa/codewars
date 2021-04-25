@@ -710,3 +710,33 @@ function sumStr(a,b) {
   let answer =  Number(a) + Number(b)
   return answer.toString() 
   }
+
+  // Complete the function that receives as input a string, and produces outputs according to the following table:
+//
+// Input	Output
+// "Jabroni"	"Patron Tequila"
+// "School Counselor"	"Anything with Alcohol"
+// "Programmer"	"Hipster Craft Beer"
+// "Bike Gang Member"	"Moonshine"
+// "Politician"	"Your tax dollars"
+// "Rapper"	"Cristal"
+// anything else	"Beer"
+
+function getDrinkByProfeesion(param){
+  switch(param.toLowerCase()){
+    case "jabroni":
+      return "Patron Tequila";
+    case 'school counselor':
+      return "Anything with Alcohol";
+    case 'programmer':
+      return "Hipster Craft Beer";
+    case "bike gang member":
+      return "Moonshine"
+    case "politician":
+      return "Your tax dollars";
+    case "rapper":
+      return "Cristal";
+    default:
+      return "Beer";
+  }
+}
