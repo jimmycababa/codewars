@@ -693,3 +693,20 @@ function mouthSize(animal) {
 function bonusTime(salary, bonus) {
   return bonus == true ? "\u00A3" + (salary * 10) : "\u00A3" + salary
   }
+
+  // 4/25/2021
+  // The code gives an error!
+  a = 123.toString
+  // solution
+  var a = '123';
+var answer = a.toString();
+
+// Create a function that takes 2 positive integers in form of a string as an input, and outputs the sum (also as a string):
+// sumStr("4", "5")    // should output "9"
+  // sumStr("34", "5")   // should output "39"
+
+// solution
+function sumStr(a,b) {
+  let answer =  Number(a) + Number(b)
+  return answer.toString() 
+  }
