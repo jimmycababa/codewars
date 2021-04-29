@@ -822,3 +822,18 @@ function findNeedle(haystack) {
 function findNeedle(haystack) {
   return "found the needle at position " + haystack.indexOf("needle");
 }
+//  4/29/2021
+// Convert number to reversed array of digits
+
+// Given a random non-negative number, you have to return the digits of this number within an array in reverse order.
+
+// Example
+// 348597 => [7,9,5,8,4,3]
+
+function digitize(n){
+
+}
+// solution
+function digitize(n){
+  return n.toString().reverse().map(Number)
+}
