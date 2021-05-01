@@ -890,3 +890,19 @@ function avg(a){
   let sum = a.reduce((a,c) => a + c, 0)
   return sum/a.length
 }
+
+// convert an array of strings to array of numbers
+// Some really funny web dev gave you a sequence of numbers from his API response as an sequence of strings!
+
+// You need to cast the whole array to the correct type.
+
+// Create the function that takes as a parameter a sequence of numbers represented as strings and outputs a sequence of numbers.
+
+// ie:["1", "2", "3"] to [1, 2, 3]
+
+// Note that you can receive floats as well.
+
+// solution
+function toNumberArray(stringarray){
+  return Array.from(stringarray).map(Number)
+}
