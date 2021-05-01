@@ -872,7 +872,21 @@ unction basicOp(operation, value1, value2)
   return value1 - value2
 }else if(operation == '/'){
   return value1 / value2
+  }
 }
-  
-  
+
+// 5/1/2021
+// Write shortest function to calculate Average number of Array
+// Given an array of integers, calculate the Average of these numbers.
+
+// Main challenge is to write shortest and compact function for it.
+
+// For example: var a = [0, 1, 2];
+// avg(a) // output should be 1
+// Output of function will be also checked in tests, however most important is to write the shortest possible function (code length < 100). Input will always be valid.
+
+// solution
+function avg(a){
+  let sum = a.reduce((a,c) => a + c, 0)
+  return sum/a.length
 }
