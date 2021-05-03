@@ -932,3 +932,14 @@ function validSpacing(s){
 function validSpacing(s) {
   return s.trim() == s && !s.includes("  ") ? true : false
 }
+
+// 5/3/2021
+
+// Create a function that returns the average of an array of numbers ("scores"), rounded to the nearest whole number. You are not allowed to use any loops (including for, for/in, while, and do/while loops).
+
+// solution
+function average(scores) {
+  let answer = scores.reduce((a,c) => a + c,0);
+   return Math.round(answer / scores.length)
+    
+}
