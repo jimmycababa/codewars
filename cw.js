@@ -851,9 +851,7 @@ function digitize(n){
 // solution
 function century(year) {
   let century = 1/100;
-  
     return Math.ceil(century * year)
-
 }
 
 // Basic Mathematical Operations
@@ -978,4 +976,15 @@ function lovefunc(flower1, flower2){
 // solution
 function joinStrings(string1, string2){
   return `${string1} ${string2}`
+}
+
+// 5/5/2021
+// Just a simple sorting usage. Create a function that returns the elements of the input-array / list in a sorted manner.
+
+sortme = function(names){
+}
+
+// solution
+sortme = function(names){
+  return names.sort()
 }
