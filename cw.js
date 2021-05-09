@@ -1022,3 +1022,13 @@ function getRealFloor(n) {
      return n - 2
   }
 }
+
+// 5/8/2021
+// Exclamation marks series #1: Remove a exclamation mark from the end of string
+
+// Remove a exclamation mark from the end of string. For a beginner kata, you can assume that the input data is always a string, no need to verify it.
+
+// solution
+function remove(s){
+  return s.replace(/!$/, '')
+}
