@@ -1040,3 +1040,14 @@ function remove(s){
 function orderOperations () {
   return (2 + 2) * (2 + 2) * 2
 }
+
+// 5/10/2021
+// Implement a function that adds two numbers together and returns their sum in binary. The conversion can be done before, or after the addition.
+
+// The binary number returned should be a string.
+
+// solution
+function addBinary(a,b) {
+  let answer = a + b;
+    return answer.toString(2)
+  }
