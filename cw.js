@@ -1078,3 +1078,16 @@ function validateUsr(username) {
   const res = /^[0-9a-z_]{4,16}$/.test(username) 
   return res
 }
+
+// 5/12/2021
+// remove exclamation marks
+// Write function RemoveExclamationMarks which removes all exclamation marks from a given string.
+
+function RemoveExclamationMarks(s){
+}
+
+// solution
+function removeExclamationMarks(s) {
+  let re = /!/gi
+  return s.replace(re, '')
+}
