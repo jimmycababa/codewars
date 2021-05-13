@@ -1091,3 +1091,19 @@ function removeExclamationMarks(s) {
   let re = /!/gi
   return s.replace(re, '')
 }
+
+// 5/13/2021
+// Remove all exclamation marks from the end of sentence.
+
+// Examples
+// remove("Hi!") === "Hi"
+// remove("Hi!!!") === "Hi"
+// remove("!Hi") === "!Hi"
+// remove("!Hi!") === "!Hi"
+// remove("Hi! Hi!") === "Hi! Hi"
+// remove("Hi") === "Hi"
+
+// solution
+function remove(s){
+  return s.replace(/!*$/g, '')
+}
