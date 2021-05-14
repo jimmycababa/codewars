@@ -1107,3 +1107,32 @@ function removeExclamationMarks(s) {
 function remove(s){
   return s.replace(/!*$/g, '')
 }
+
+// 5/14/2021
+// Our friend Pac has finally decided to pursue a career in the coding industry.
+// He is a newbie, he needs to learn properly.
+// Therefore, Pac wants to apply for the worldwide famous -and very demanding-
+// 'C0d3r 1ns1d3' Academy for beginners.
+// In order to join, Pac is required to solve a series of 3 exercises about 'Bug Fixes'.
+// He has been sent an email from the Academy with the following instructions,
+
+// Dear Pac,  
+// This is the first exercise. Find out what's wrong and fix the code.  
+// You have 15 minutes to send a solution.  
+// Good Luck.
+// This code is a mess! Would you help Pac to fix the code in time?
+
+// (This might be helpful -> Math.random();)
+
+// solution
+function yourFutureCareer() {
+	var career = Math.random()
+		if (career <= 0.34) {
+			return 'FrontEnd Developer'
+		} else if (career <= 0.67) {
+			return 'BackEnd Developer'
+		 }else{
+			return 'Full-Stack Developer'
+		}
+}
+console.log(yourFutureCareer())
