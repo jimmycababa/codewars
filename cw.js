@@ -1171,4 +1171,10 @@ function getCount(str) {
   return str.replace(/[^aeiou]/g, '').length;
  }
 
+// vowel remover
+// create a function called shortcut to remove all the lowercase vowels in a given string
 
+// solution
+function shortcut(string){
+  return string.replace(/[aeiou]/g, '').toLowerCase()
+}
