@@ -1178,3 +1178,5 @@ function getCount(str) {
 function shortcut(string){
   return string.replace(/[aeiou]/g, '').toLowerCase()
 }6
+
+// 5/18/2021
