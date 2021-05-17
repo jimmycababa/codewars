@@ -1177,4 +1177,4 @@ function getCount(str) {
 // solution
 function shortcut(string){
   return string.replace(/[aeiou]/g, '').toLowerCase()
-}
+}6
