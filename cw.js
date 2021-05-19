@@ -1179,4 +1179,15 @@ function shortcut(string){
   return string.replace(/[aeiou]/g, '').toLowerCase()
 }6
 
-// 5/18/2021 this
+// 5/18/2021
+// regex count lowercase letters
+
+// Your task is simply to count the total number of lowercase letters in a string.
+
+function lowercaseCount(str){
+}
+
+// solution
+function lowercaseCount(str){
+  return str.replace(/[^a-z]/g, '').length 
+}
