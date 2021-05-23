@@ -1258,3 +1258,20 @@ function fahrenheitToCelsius(fahrenheit) {
 function fahrenheitToCelsius(fahrenheit) {  
   return (fahrenheit - 32) / (9/5);  
 }
+
+// 5/23/2021
+
+// The goal is to create a function 'numberToPower(number, power)' that "raises" the number up to power (ie multiplies number by itself power times).
+
+function numberToPower(number, power){
+}
+
+// solution
+
+function numberToPower(number, power){
+  let sum = 1;
+  for(let i = 0; i < power; i++){
+    sum*=number
+  }
+  return sum
+  }
