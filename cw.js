@@ -1271,7 +1271,25 @@ function numberToPower(number, power){
 function numberToPower(number, power){
   let sum = 1;
   for(let i = 0; i < power; i++){
-    sum*=number
+    sum*number
   }
   return sum
   }
+
+  // 5/24/2021
+
+  // words to sentence
+
+// Write function wordsToSentence which will create a string from a list of strings, separated by space.
+
+// Example:
+
+// ["hello", "world"] -> "hello world"
+
+function wordsToSentence(words){
+}
+
+// solution
+function wordsToSentence(words) {
+  return words.join(' ')
+}
