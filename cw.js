@@ -1318,3 +1318,13 @@ function xor(a, b) {
 function _if(bool, func1, func2) {
   return Boolean(bool) ? func1() : func2();
 }
+
+// 5/26/2021
+// Write a function that always returns 5
+
+// Sounds easy right? Just bear in mind that you can't use any of the following characters: 0123456789*+-/
+
+// solution
+function unusualFive() {
+  return "answr".length
+}
