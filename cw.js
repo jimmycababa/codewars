@@ -1399,3 +1399,21 @@ function position(letter){
   const alphabet = ["","a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
 return 'Position of alphabet:' + " " + alphabet.indexOf(letter)
 }
+
+// 5/29/2021
+// merge two sorted arrays into one
+// You are given two sorted arrays that both only contain integers. Your task is to find a way to merge them into a single one, sorted in asc order. Complete the function mergeArrays(arr1, arr2), where arr1 and arr2 are the original sorted arrays.
+
+// You don't need to worry about validation, since arr1 and arr2 must be arrays with 0 or more Integers. If both arr1 and arr2 are empty, then just return an empty array.
+
+// Note: arr1 and arr2 may be sorted in different orders. Also arr1 and arr2 may have same integers. Remove duplicated in the returned result.
+
+function mergeArrays(arr1,arr2){
+}
+
+// solution
+function mergeArrays(arr1, arr2) {
+  let result = [...new Set ([...arr1, ...arr2])];
+  return result.sort((a,b) => a-b,0);
+  
+  }
