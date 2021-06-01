@@ -1422,3 +1422,13 @@ function mergeArrays(arr1, arr2) {
   function mergeArrays(arr1, arr2) {
     return Array.from(new Set(arr1.concat(arr2).sort((a,b) => (a-b))));
   }
+
+  // 5/31/2021
+  // remove duplicates from list
+// Define a function that removes duplicates from an array of numbers and returns it as a result.
+
+The order of the sequence has to stay the same.
+
+  // solution
+  function distinct(a) {
+    return [...new Set(a)];
