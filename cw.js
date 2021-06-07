@@ -1435,7 +1435,7 @@ The order of the sequence has to stay the same.
 
     // 6/4/2021
     // return negative (refactor)
-    
+
     // In this simple assignment you are given a number and have to make it negative. But maybe the number is already negative?
     // The number can be negative already, in which case no change is required.
 // Zero (0) is not checked for any specific sign. Negative zeros make no mathematical sense.
@@ -1444,3 +1444,12 @@ The order of the sequence has to stay the same.
 function makeNegative(num) {
   return Math.abs(num) * -1.
 }
+
+// 6/6/2021
+// vowel changer
+// Create a function that changes all the vowels (excluding y) in a string, and changes them all to the same vowel. The first parameter of the function is the string, and the second is the vowel that all the vowels in the string are being changed to.
+
+// solution
+function vowelChange(str, vow) {
+  return str.replace(/[aeiou]/ig, vow)
+  }
