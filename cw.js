@@ -1453,3 +1453,17 @@ function makeNegative(num) {
 function vowelChange(str, vow) {
   return str.replace(/[aeiou]/ig, vow)
   }
+
+  // all star code challenge #1
+  // This Kata is intended as a small challenge for my students
+
+// Write a function, called sumPPG, that takes two NBA player objects/struct/Hash/Dict/Class and sums their PPG
+
+function sumPPG(playerOne, playerTwo){
+
+}
+
+// solution
+function sumPPG(playerOne, playerTwo){
+  return playerOne.ppg + playerTwo.ppg
+    }
