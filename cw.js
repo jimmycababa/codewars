@@ -1535,3 +1535,13 @@ function correct(string)
 {
  return string.replace(/5/g, "S").replace(/0/g, "O").replace(/1/g, "I")
 }
+
+// 6/12/2021
+// Grasshopper - array mean
+// Find the mean (average) of a list of numbers in an array.
+
+// solution
+var findAverage = function (nums) {
+  let sum = nums.reduce((a,b) => a + b, 0)
+  return sum / nums.length
+}
