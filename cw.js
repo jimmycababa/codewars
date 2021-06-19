@@ -1624,3 +1624,14 @@ var championsLeagueGoals = 10
 var copaDelReyGoals = 5
 
 var totalGoals = laLigaGoals + championsLeagueGoals + copaDelReyGoals
+
+// 6/19/2021
+// Beginner - reduce but grow
+// Given a non-empty array of integers, return the result of multiplying the values together in order. Example:
+
+// [1, 2, 3, 4] => 1 * 2 * 3 * 4 = 24
+
+// solution
+function grow(x){
+  return x.reduce((a,b) => a*b)
+  }
