@@ -1656,3 +1656,20 @@ function isDivisible(n,x,y){
   function isDivisible(n, x, y) {
     return n % y== 0 && n % x == 0 ? true : false
   }
+
+  // find the position!
+  // When provided with a letter, return its position in the alphabet.
+
+// Input :: "a"
+
+// Ouput :: "Position of alphabet: 1"
+
+function position(letter){
+
+}
+
+// solution
+function position(letter){
+  let answer = letter.charCodeAt(0) - 96
+return `Position of alphabet: ${answer}`
+}
