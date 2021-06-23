@@ -1709,7 +1709,7 @@ function doTurn () {
  printStatus()
 }
 
-// FizzBuzz - without ifs
+// FizzBuzz - without ifs or else
 // You need to implement a function that applies the standard fizz buzz test:
 
 // If a number is divisible by 3, return Fizz
