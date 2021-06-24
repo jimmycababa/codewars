@@ -1722,3 +1722,16 @@ function doTurn () {
 function fizzBuzz(n) {
   return n % 3 == 0 && n % 5 == 0 ? "FizzBuzz" : n % 3 == 0 ? "Fizz" : n % 5 == 0 ? "Buzz" : n
 };
+
+// 6/24/2021
+// a promise is a promise
+
+// Create a resolved javascript Promise that will return 'Hello World!'.
+function promiseHelloWorld() {
+}
+
+// solution
+async function promiseHelloWorld() {
+  // replace this nonsense with your Promise
+  return 'Hello World!'
+}
