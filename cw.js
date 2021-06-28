@@ -1753,3 +1753,11 @@ function myFirstKata(a,b) {
     return (a % b)+ (b % a);
   }
 }
+// 6/28/2021
+// Case swapping
+// Given a string, swap the case for each of the letters.
+
+// e.g. CodEwArs --> cODeWaRS
+
+// solution
+return str.split('').map(x => x == x.toLowerCase() ? x.toUpperCase() : x.toLowerCase()).join('')
