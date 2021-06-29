@@ -1761,3 +1761,21 @@ function myFirstKata(a,b) {
 
 // solution
 return str.split('').map(x => x == x.toLowerCase() ? x.toUpperCase() : x.toLowerCase()).join('')
+
+// how good are you really?
+// There was a test in your class and you passed it. Congratulations!
+// But you're an ambitious person. You want to know if you're better than the average student in your class.
+
+// You receive an array with your peers' test scores. Now calculate the average and compare your score!
+
+// Return True if you're better, else False!
+
+function betterThanAverage(classPoints, yourPoints){
+
+}
+
+// solution
+function betterThanAverage(classPoints, yourPoints) {
+  let answer = classPoints.reduce((a,b) => a + b, 0)
+  return answer / classPoints.length < yourPoints ? true : false
+}
