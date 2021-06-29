@@ -1779,3 +1779,32 @@ function betterThanAverage(classPoints, yourPoints) {
   let answer = classPoints.reduce((a,b) => a + b, 0)
   return answer / classPoints.length < yourPoints ? true : false
 }
+// 6/29/2021
+// grasshopper: summation
+// Write a program that finds the summation of every number from 1 to num. The number will always be a positive integer greater than 0.
+
+// For example:
+
+// summation(2) -> 3
+// 1 + 2
+
+// summation(8) -> 36
+// 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8
+
+var summation = function (num) {
+}
+
+// solution
+var summation = function (num) {
+  let answer = 0
+  for(let i = 1; i <= num; i ++){
+    answer += i
+  }
+  return answer
+}
+
+// recursion answer
+function summation(num) {
+  return num * (num + 1) / 2
+}
+
