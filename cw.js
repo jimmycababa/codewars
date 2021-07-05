@@ -1844,3 +1844,17 @@ function pointsPer48(ppg, mpg) {
   function even_or_odd(number) {
     return number % 2 === 0 ? 'Even' : 'Odd'
   }
+
+  // Opposite number
+//   Very simple, given a number, find its opposite.
+
+// Examples:
+
+// 1: -1
+// 14: -14
+// -34: 34
+
+// solution
+function opposite(number) {
+  return number ? -number : number
+}
