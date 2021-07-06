@@ -1873,3 +1873,12 @@ function opposite(number) {
 function monkeyCount(n) {
   return  Array.from(new Array(n), (x,i) => i+1)
   }
+
+  // loop solution
+  function monkeyCount(n) {
+    let answer = []
+    for(let i = 1; i <=n; i++){
+      answer.push(i)
+    }
+      return answer
+    }
