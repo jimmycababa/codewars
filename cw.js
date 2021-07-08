@@ -1903,3 +1903,19 @@ function highAndLow(numbers){
   let answer = numbers.split(' ')
   return `${Math.max(...answer)} ${Math.min(...answer)}`
 }
+
+// 7/8/2021
+// Reversed sequence
+// Build a function that returns an array of integers from n to 1 where n>0.
+
+// Example : n=5 --> [5,4,3,2,1]
+
+// solution
+const reverseSeq = n => {
+  let answer = [];
+
+for (let i = 1; i <= n; i++) {
+   answer.push(i);
+}
+  return answer.reverse()
+}
