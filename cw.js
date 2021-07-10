@@ -1919,3 +1919,17 @@ for (let i = 1; i <= n; i++) {
 }
   return answer.reverse()
 }
+
+// 7/9/2021
+// surface area and volume of a box
+// write a function that returns the total surface area and volume of a box as an array [area, volume]
+
+// solution
+function getSize(width, height, depth){
+  let volume = []
+  let area = (2 * (height * width) + 2 * (height * depth) + 2 * (width * depth))
+  let answer = width * height * depth
+   volume.push(area, answer)
+  return volume
+  
+}
