@@ -38,3 +38,16 @@ end
 def opposite(num)
 num * -1
 end
+
+<!-- 7/14.2021 -->
+Convert boolean values to strings 'Yes' or 'No' - Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
+
+<!-- problem -->
+def bool_to_word bool
+
+end
+
+<!-- solution -->
+def bool_to_word bool
+  bool ? "Yes" : "No"
+end
