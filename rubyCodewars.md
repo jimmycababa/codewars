@@ -25,3 +25,16 @@ if number % 2 == 0
   return "Odd"
 end
   end
+
+  <!-- 7/13/2021 -->
+   Opposite number - Very simple, given a number, find its opposite.
+  
+  <!-- problem -->
+  def opposite
+  
+  end
+
+<!-- solution -->
+def opposite(num)
+num * -1
+end
