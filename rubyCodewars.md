@@ -51,3 +51,16 @@ end
 def bool_to_word bool
   bool ? "Yes" : "No"
 end
+
+<!-- 7 /15/2021 -->
+Convert a Booleans to a string - mplement a function which convert the given boolean value into its string representation.
+
+<!-- problem -->
+def boolean_to_string(b)
+return
+end
+
+<!-- solution -->
+def boolean_to_string(b)
+  return b.to_s
+end
