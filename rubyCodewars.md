@@ -64,3 +64,16 @@ end
 def boolean_to_string(b)
   return b.to_s
 end
+
+<!-- 7/18/2021 -->
+Reversed Strings - Complete the solution so that it reverses the string passed into it.
+
+<!-- problem -->
+def solution(str)
+
+end
+
+<!-- solution -->
+def solution(str)
+str.reverse
+end
