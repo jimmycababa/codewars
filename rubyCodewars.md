@@ -97,3 +97,18 @@ end
 def reverse(string)
   string.split(' ').reverse.join(' ')
 end
+
+<!-- 7/19/2021 -->
+Convert a string to a Number! - We need a function that can transform a string into a number. What ways of achieving this do you know?
+
+Note: Don't worry, all inputs will be strings, and every string is a perfectly valid representation of an integral number.
+
+<!-- problem -->
+def string_to_number(s)
+
+end
+
+<!-- solution -->
+def string_to_number(s)
+s.to_i
+end
