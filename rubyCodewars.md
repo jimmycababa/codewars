@@ -133,3 +133,21 @@ end
 def disemvowel(str)
   str.gsub(/[aeiou]/i, '')
 end
+
+<!-- 7/21/21 -->
+Messi Goals Function - Messi is a soccer player with goals in three leagues:
+
+LaLiga
+Copa del Rey
+Champions
+Complete the function to return his total number of goals in all three leagues.
+
+<!-- problem -->
+def goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals)
+
+end
+
+<!-- solution -->
+def goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals)
+  laLigaGoals + copaDelReyGoals + championsLeagueGoals
+end
