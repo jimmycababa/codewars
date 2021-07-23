@@ -191,3 +191,16 @@ verb + noun
 def main(verb, noun)
   return verb + noun
   end
+
+  <!-- 7/23/21 -->
+  Grasshopper debug sayHello - The starship Enterprise has run into some problem when creating a program to greet everyone as they come aboard. It is your job to fix the code and get the program working again!
+
+  <!-- problem -->
+  def say_hello(name)
+  "Hello"
+  end
+
+  <!-- solution -->
+  def say_hello(name)
+  "Hello," + ' ' + name
+end
