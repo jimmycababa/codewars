@@ -151,3 +151,25 @@ end
 def goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals)
   laLigaGoals + copaDelReyGoals + championsLeagueGoals
 end
+
+<!-- better solution -->
+def goals(*goals)
+  goals.sum
+end
+
+<!-- 7/22/21 -->
+Grasshopper - Basic function fixer - I created this function to add five to any number that was passed in to it and return the new value. It doesn't throw any errors but it returns the wrong number.
+
+Can you help me fix the function?
+
+<!-- problem -->
+def addFive(num)
+  res = num + 5
+  return num
+end
+
+<!-- solution -->
+def addFive(num)
+  res = num + 5
+  return res
+end
