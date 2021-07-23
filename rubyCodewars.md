@@ -173,3 +173,21 @@ def addFive(num)
   res = num + 5
   return res
 end
+
+<!-- better solution -->
+def addFive(num)
+  num + 5
+end
+
+Grasshopper - function syntax debugging - A student was working on a function and made some syntax mistakes while coding. Help them find their mistakes and fix them.
+
+<!-- problem -->
+def main[verb, noun]
+return ;
+verb + noun
+}
+
+<!-- solution -->
+def main(verb, noun)
+  return verb + noun
+  end
