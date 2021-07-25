@@ -289,3 +289,15 @@ end
 def sale_hotdogs(n)
   n * (n < 5 ? 100 : n < 10 ? 95 : 90)
 end
+
+<!-- 7/25/21 -->
+Remove first and last character - It's pretty straightforward. Your goal is to create a function that removes the first and last characters of a string. You're given one parameter, the original string. You don't have to worry with strings with less than two characters.
+
+<!-- problem -->
+def remove_char(s)
+end
+
+<!-- solution -->
+def remove_char(s)
+s[1...-1]
+end
