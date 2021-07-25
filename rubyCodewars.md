@@ -254,3 +254,38 @@ a = "dev"
 b = "Lab"
 
 name = a + b
+
+Basic variable assignment - This code should store "codewa.rs" as a variable called name but it's not working. Can you figure out why?
+
+<!-- problem -->
+a == "code"
+b == "wa.rs"
+name == a + b
+
+<!-- solution -->
+a = "code"
+b = "wa.rs"
+name = a + b
+
+Training JS #7: if..else and ternary operator - Complete function saleHotdogs/SaleHotDogs/sale_hotdogs, function accept 1 parameters:n, n is the number of customers to buy hotdogs, different numbers have different prices (refer to the following table), return a number that the customer need to pay how much money.
+
+<!-- problem -->
+def sale_hotdogs(n)
+
+end
+
+<!-- solution -->
+def sale_hotdogs(n)
+  if n < 5
+    return n*100 
+    elsif n >= 5 && n < 10
+    return n*95
+    elsif n >= 10
+    return n*90
+    end
+end
+
+<!-- way better solution -->
+def sale_hotdogs(n)
+  n * (n < 5 ? 100 : n < 10 ? 95 : 90)
+end
