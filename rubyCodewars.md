@@ -239,3 +239,18 @@ end
 def check_alive(health)
   health > 0
 end
+
+<!-- 7/24/21 -->
+Grasshopper - Variable Assignment Debug - Fix the variables assigments so that this code stores the string 'devLab' in the variable name.
+
+<!-- problem -->
+a == "dev"
+b == "Lab"
+
+name == a + b
+
+<!-- solution -->
+a = "dev"
+b = "Lab"
+
+name = a + b
