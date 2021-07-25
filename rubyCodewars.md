@@ -301,3 +301,19 @@ end
 def remove_char(s)
 s[1...-1]
 end
+
+Remove String Spaces - Simple, remove the spaces from the string, then return the resultant string.
+
+<!-- problem -->
+def no_space(s)
+end
+
+<!-- solution -->
+def no_space(x)
+x.delete(' ')
+end
+
+<!-- other solution -->
+def no_space(x)
+x.gsub(' ', '')
+end
