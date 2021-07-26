@@ -317,3 +317,11 @@ end
 def no_space(x)
 x.gsub(' ', '')
 end
+
+<!-- 7/26/21 -->
+Function 1 hello world - Make a simple function called greet that returns the most-famous "hello world!".
+
+<!-- solution -->
+def greet
+  string = "hello world!"
+  end
