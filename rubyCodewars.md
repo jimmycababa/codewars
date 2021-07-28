@@ -341,3 +341,14 @@ end
 def greet(name)
   name == "Johnny" ? "Hello, my love!" : "Hello, #{name}!"
 end
+
+Reversed Words - Complete the solution so that it reverses all of the words within the string passed in.
+
+<!-- problem -->
+def solution(sentence)
+end
+
+<!-- solution -->
+def solution(sentence)
+  sentence.split(' ').reverse.join(' ')
+end
