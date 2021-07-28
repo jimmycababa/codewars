@@ -325,3 +325,19 @@ Function 1 hello world - Make a simple function called greet that returns the mo
 def greet
   string = "hello world!"
   end
+
+  <!-- 7/28/2021 -->
+  Jennys secret message - Jenny has written a function that returns a greeting for a user. However, she's in love with Johnny, and would like to greet him slightly different. She added a special case to her function, but she made a mistake.
+
+Can you help her?
+
+<!-- problem -->
+def greet(name)
+return "Hello, #{name}!"
+eturn "Hello, my love!" if name == "Johnny"
+end
+
+<!-- solution -->
+def greet(name)
+  name == "Johnny" ? "Hello, my love!" : "Hello, #{name}!"
+end
