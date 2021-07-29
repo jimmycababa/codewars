@@ -366,3 +366,25 @@ end
 def number_to_string(num)
 num.to_s
 end
+
+Convert a string to an array - Write a function to split a string and convert it into an array of words
+
+<!-- problem -->
+def string_to_array(string)
+end
+
+<!-- solution -->
+def string_to_array(string)
+  string.split
+end
+
+Sum Arrays - Write a function that takes an array of numbers and returns the sum of the numbers. The numbers can be negative or non-integer. If the array does not contain any numbers then you should return 0.
+
+<!-- problem -->
+def sum(numbers)
+end
+
+<!-- solution -->
+def sum(numbers)
+numbers.sum
+end
