@@ -352,3 +352,17 @@ end
 def solution(sentence)
   sentence.split(' ').reverse.join(' ')
 end
+
+<!-- 7/29/21 -->
+Convert a number to a string - We need a function that can transform a number into a string.
+
+What ways of achieving this do you know?
+
+<!-- problem -->
+def number_to_string(num)
+end
+
+<!-- solution -->
+def number_to_string(num)
+num.to_s
+end
