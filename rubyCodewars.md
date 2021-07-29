@@ -388,3 +388,20 @@ end
 def sum(numbers)
 numbers.sum
 end
+
+Araay plus array - I'm new to coding and now I want to get the sum of two arrays...actually the sum of all their elements. I'll appreciate for your help.
+
+<!-- problem -->
+def array_plus_array(arr1, arr2)
+  arr1 + arr2.
+end
+
+<!-- solution -->
+def array_plus_array(arr1, arr2)
+  arr1.sum + arr2.sum
+end
+
+<!-- different solution -->
+def array_plus_array(arr1, arr2)
+  (arr1 + arr2).reduce(:+)
+end
