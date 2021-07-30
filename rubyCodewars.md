@@ -405,3 +405,15 @@ end
 def array_plus_array(arr1, arr2)
   (arr1 + arr2).reduce(:+)
 end
+
+<!-- 7/30/21 -->
+MakeUpperCase - Write a function which converts the input string to uppercase.
+
+<!-- problem -->
+def make_upper_case(str)
+end
+
+<!-- solution -->
+def make_upper_case(str)
+  str.upcase
+end
