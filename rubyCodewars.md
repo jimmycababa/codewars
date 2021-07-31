@@ -444,3 +444,27 @@ end
 def remove_exclamation_marks(s)
   s.delete("!")
 end
+
+Function 3 - multiplying two numbers - Implement a function which multiplies two numbers. (no starting code given)
+
+<!-- solution -->
+def multiply (a,b)
+  a * b
+  end
+
+  Grasshopper - Messi Goals - Use variables to find the sum of the goals Messi scored in 3 competitions
+
+  <!-- problem -->
+  la_liga_goals = 43
+champions_league_goals = 10
+copa_del_rey_goals = 5
+
+puts total_goals
+
+<!-- solution -->
+la_liga_goals = 43
+champions_league_goals = 10
+copa_del_rey_goals = 5
+total_goals = la_liga_goals + champions_league_goals + copa_del_rey_goals
+
+puts total_goals
