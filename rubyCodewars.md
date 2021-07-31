@@ -433,3 +433,14 @@ end
 def check(arr,element)
   arr.include?(element) ? true : false
 end
+
+Remove exclamation marks - Write function RemoveExclamationMarks which removes all exclamation marks from a given string.
+
+<!-- problem -->
+def remove_exclamation_marks(s)
+end
+
+<!-- solution -->
+def remove_exclamation_marks(s)
+  s.delete("!")
+end
