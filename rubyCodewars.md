@@ -545,3 +545,21 @@ def how_many_dalmatians(n)
   else "Woah that's a lot of dogs!"
   end
 end
+
+<!-- 8/3/21 -->
+Grasshopper - Personalized Message - Create a function that gives a personalized greeting. This function takes two parameters: name and owner.
+
+Use conditionals to return the proper message:
+
+case	return
+name equals owner	'Hello boss'
+otherwise	'Hello guest'
+
+<!-- problem -->
+def greet(name,owner) 
+end
+
+<!-- solution -->
+def greet(name,owner) 
+  name == owner ? 'Hello boss' : 'Hello guest'
+end
