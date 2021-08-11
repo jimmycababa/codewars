@@ -640,3 +640,15 @@ end
   def update_light(current)
   {"green" => "yellow", "yellow" => "red", "red" => "green"}[current]
 end
+
+<!-- 8/11/2021 -->
+Your task is to create functionisDivideBy (or is_divide_by) to check if an integer number is divisible by each out of two arguments.
+
+<!-- problem -->
+def is_divide_by(number, a, b)
+end
+
+<!-- solution - actually don't need the true false at the end of the statement -->
+def is_divide_by(number, a, b)
+  number % a == 0 && number % b == 0 ? true : false
+end
