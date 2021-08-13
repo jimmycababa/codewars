@@ -652,3 +652,17 @@ end
 def is_divide_by(number, a, b)
   number % a == 0 && number % b == 0 ? true : false
 end
+
+<!-- 8/12/2021 -->
+Name Shuffler - Write a function that returns a string in which firstname is swapped with last name.
+
+name_shuffler('john McClane'); => "McClane john"
+
+<!-- problem -->
+def name_shuffler(str)
+end
+
+<!-- solution -->
+def name_shuffler(str)
+  str.split.reverse.join(' ')
+end
