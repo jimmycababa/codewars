@@ -666,3 +666,15 @@ end
 def name_shuffler(str)
   str.split.reverse.join(' ')
 end
+
+<!-- 8/14/2021 -->
+Find numbers which are divisible by the given number - Complete the function which takes two arguments and returns all numbers which are divisible by the given divisor. First argument is an array of numbers and the second is the divisor.
+
+<!-- problem -->
+def divisible_by(numbers, divisor)
+end
+
+<!-- solution -->
+def divisible_by(numbers, divisor)
+ numbers.select { |n| n % divisor == 0 }
+end
