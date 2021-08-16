@@ -12,7 +12,7 @@ def multiply(a, b)
 end
 
 <!-- 7/12/2021 -->
-Even or odd - Create a function (or write a script in Shell) that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
+Even or odd - Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
 
 <!-- problem -->
 def even_or_odd(number)
@@ -704,4 +704,21 @@ end
 <!-- better solution -->
 def sale_hotdogs(n)
   n * (n < 5 ? 100 : n < 10 ? 95 : 90)
+end
+
+<!-- 8/16/2021 -->
+Is it a palindrone? - Write function that checks if a given string (case insensitive) is a palindrome.
+
+<!-- problem -->
+def is_palindrome str
+end
+
+<!-- solution -->
+def is_palindrome str
+  str.downcase == str.reverse.downcase ? true : false
+end
+
+<!-- alternative solution -->
+def is_palindrome str
+str.casecmp?(str.reverse) 
 end
