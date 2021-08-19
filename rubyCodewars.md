@@ -722,3 +722,15 @@ end
 def is_palindrome str
 str.casecmp?(str.reverse) 
 end
+
+<!-- 8/18/2021 -->
+Remove duplicates from list - Define a function that removes duplicates from an array of numbers and returns it as a result.
+
+<!-- problem -->
+def distinct(seq)
+end
+
+<!-- solution -->
+def distinct(seq)
+  seq.uniq
+end
