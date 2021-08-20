@@ -573,16 +573,16 @@ For this exercise you need to fix the code so that it works correctly.
 
 <!-- problem -->
 class Person
-#   def initialize(firstName, lastName, age)
-#     @firstName = firstName
-#     @lastName = lastName
-#     @age = age
-#   end
+   def initialize(firstName, lastName, age)
+     @firstName = firstName
+    @lastName = lastName
+     @age = age
+   end
   
-#   def full_name
-#     "#{@firstName} #{@lastName}"
-#   end
-# end
+   def full_name
+     "#{@firstName} #{@lastName}"
+   end
+ end
 
 <!-- solution -->
 class Person
@@ -784,3 +784,6 @@ def cookie(x)
     'the dog!'
   end
 end
+
+<!-- 8/20/2021 -->
+Beginner - Lost Without A Map
