@@ -785,15 +785,6 @@ def cookie(x)
   end
 end
 
-<!-- 8/20/2021 -->
-Beginner - Lost Without A Map
-
-
-<!-- problem -->
-
-
-<!-- solution -->
-
 
 <!-- 8/21/2021 -->
 Get number from string - Write a function which removes from string all non-digit characters and parse the remaining to number. E.g: "hell5o wor6ld" -> 56
