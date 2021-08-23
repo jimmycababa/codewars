@@ -799,7 +799,7 @@ s.gsub!(/[a-z\W]/, '')
   return s.to_i
 end
 
-<!-- best practices answer -->
+<!-- best practices answer in da house! -->
 def get_number_from_string(s)
   s.scan(/\d+/).join.to_i
 end
