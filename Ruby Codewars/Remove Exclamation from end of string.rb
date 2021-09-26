@@ -20,4 +20,6 @@ def remove(s)
     # better solution
     def remove(s)
         s.chomp('!')
-        end
+              end
+
+        # dfsdfdsft7uyituyssdsd
